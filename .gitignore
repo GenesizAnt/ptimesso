@@ -3,6 +3,10 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+application.properties
+application-dev.properties
+application-prod.properties
+application.yml
 
 ### STS ###
 .apt_generated
@@ -18,16 +22,8 @@ target/
 *.iws
 *.iml
 *.ipr
+*.log
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
+### Frontend ###
+frontend/node_modules
+frontend/build
